@@ -143,4 +143,36 @@ ul li {
     justify-content: space-evenly;
 }
 
-/* hero section end */
+/* hero section end  */
+
+/* service section start */
+.service-section {
+    padding: 4rem 0;
+}
+
+.service-head {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.service-head h2 {
+    font-size: 3rem;
+}
+
+.service-head-text p {
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.service-head-icon i {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: .8rem 2rem .8rem .8rem;
+    color: black;
+    text-align: center;
+
+}
+
+
+/* service section end */
