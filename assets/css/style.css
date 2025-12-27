@@ -300,3 +300,139 @@ ul li {
 }
 
 /* portfolio section end */
+
+/* skill section start */
+.skill-section {
+    padding: 3rem 0;
+}
+
+.skill-div {
+    text-align: center;
+}
+
+.skill-text h2 {
+    font-size: 3rem;
+}
+
+.skill-text p {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.skill-left-card {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: left;
+    /* line-height: 2rem; */
+    padding: 2rem 1rem;
+    border-radius: 16px;
+
+}
+
+.skill-left-card h2 {
+    padding-bottom: 1rem;
+}
+
+.skill-left-card p {
+    line-height: 1.5rem;
+}
+
+.skill-left-icon-div {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: .5rem .5rem;
+    /* display: inline-block; */
+}
+
+.skill-left-icon-div img {
+    width: 50px;
+}
+
+.skill-center-card {
+    background-color: var(--card-bg);
+    text-align: left;
+    line-height: 2.5rem;
+    padding: 2rem 1rem;
+    border-radius: 16px;
+}
+
+.skill-right-card {
+    padding: 3rem;
+    text-align: left;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.skill-right-btn-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.skill-3-grid {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    /* height: 300px; */
+}
+
+.skill-center-card p {
+    margin-top: 16px;
+}
+
+.skill-project {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 16px;
+    line-height: 2rem;
+}
+
+.skill-project p {
+    padding-bottom: 1rem;
+}
+
+.skill-project h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.skill-project-contact a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+.skill-edu img {
+    width: 60px;
+}
+
+.skill-edu {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 16px;
+    line-height: 2rem;
+}
+
+.skill-2-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+/* skill section end */
