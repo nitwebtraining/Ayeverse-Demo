@@ -43,7 +43,7 @@
 
 .btn:hover {
     background-color: var(--secondary-color);
-    transition: background-color .3s ease;
+    transition: background-color .5s ease;
 }
 
 body {
@@ -91,6 +91,7 @@ ul li {
     border-radius: 30%;
     color: white;
     padding: .3rem .1rem;
+    cursor: pointer;
 }
 
 .navLinks li a {
@@ -102,7 +103,7 @@ ul li {
 
 .navLinks li a:hover {
     color: var(--primary-color);
-    transition: color .3s ease;
+    transition: color .5s ease;
 }
 
 .hero-text {
@@ -116,6 +117,8 @@ ul li {
 
 .hero-text p {
     font-family: var(--secondary-font);
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .hero-text h1 {
@@ -163,6 +166,9 @@ ul li {
 .service-head-text p {
     color: var(--primary-color);
     font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 
 .service-head-icon {
@@ -183,7 +189,7 @@ ul li {
 .service-head-icon i:hover {
     background-color: black;
     color: whitesmoke;
-    transition: background-color .8s ease;
+    transition: background-color .5s ease;
 
 }
 
@@ -201,6 +207,7 @@ ul li {
 .service-card:hover {
     background-color: var(--primary-color);
     color: white;
+    transition: background-color .5s ease;
 
 }
 
@@ -224,3 +231,38 @@ ul li {
 }
 
 /* service section end */
+
+/* portfolio section start */
+.portfolio-section {
+    padding: 4rem 0;
+}
+
+.portfolio-text {
+    text-align: center;
+}
+
+.portfolio-text h2 {
+    font-size: 3rem;
+}
+
+.portfolio-text p {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.portfolio-btn-sec {
+    background-color: white;
+    margin-top: .5rem;
+    display: inline-block;
+    padding: 1rem .5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.portfolio-btn-sec .portfolio-btn {
+    background-color: wheat;
+}
+
+/* portfolio section end */
