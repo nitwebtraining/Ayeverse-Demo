@@ -525,6 +525,7 @@ ul li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 0rem 0 18rem 0;
 }
 
 .elevate-text {
@@ -608,7 +609,120 @@ ul li {
     background-color: white;
     color: black;
     cursor: pointer;
+    /* elevate section end */
+
+    /* search optimize start */
 
 }
 
-/* elevate section end */
+.serach-text {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.serach-text p {
+    color: var(--primary-color);
+
+
+}
+
+.serach-text h2 {
+    font-size: 3rem;
+    font-family: var(--primary-font);
+}
+
+.search-main {
+    background-color: #F3F7F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 18px;
+}
+
+.search-main-left {
+    border-top: 16px solid var(--primary-color);
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    line-height: 3.5rem;
+}
+
+.search-main-right {
+    width: 400px;
+    height: 400px;
+}
+
+.search-main-left-box {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.search-main-left-box-mini {
+    background-color: #F3F7F8;
+    padding: 2rem;
+    border-radius: 18px;
+    line-height: 1.8rem;
+}
+
+.search-main-left-box-mini h2 {
+    font-size: 2.5rem;
+}
+
+.search-main-left-box-mini:hover {
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.search-main-left img {
+    width: 300px;
+    min-height: 80px;
+}
+
+.search-left-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-left-text a {
+    text-decoration: none;
+    color: var(--heading-text-color);
+}
+
+.search-main-right-upper {
+    margin-top: 1.8rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.search-main-right-upper img {
+    width: 60px;
+}
+
+.search-main-right-bottom {
+    background: white;
+    padding: 2rem;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-main-right-bottom-p p:hover {
+    color: var(--primary-color);
+}
+
+
+/* search optimize end */
